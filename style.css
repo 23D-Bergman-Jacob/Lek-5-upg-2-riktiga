@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 250px;
+    font-family: "Mountains of Christmas", serif;
+} 
+.Rubrik{
+    background-image: url(img/snow_winter_trees.jpg);
+    border: 3px solid #D6001C;
+    width: 90%;
+    align-self: center;
+    padding-top: 30px;
+    background-size: 1400px;
+    padding-bottom: 50px;
+}
+.Bilder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    img{
+        /* max-width: 80px; */
+        max-height: 30px;
+    }
+    margin-left: 0.3%;
+    margin-right: 0.5%;
+    width: 99%;
+    border: 3px solid #D6001C;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.swelockers{
+    border: 3px solid black;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 0%;
+}
+.SMHI{
+    border: 3px solid black;
+    padding: 3px;
+}
+
+.RT{
+    border: 3px solid black;
+    padding: 3px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.andra_delen{
+    border: 3px solid #D6001C;
+    width: 90%;
+    margin-top: 5px;
+}
+.Del2_1{
+    width: 15%;
+    border: 3px solid #D6001C;
+    margin: 3px;
+    img{
+        max-width: 80%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Bilder{
+    border: 3px solid black;
+    padding: 3px;
+}
+a{
+    align-self: center;
+}
