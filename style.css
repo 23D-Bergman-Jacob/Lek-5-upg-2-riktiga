@@ -2,7 +2,6 @@ h1{
     text-align: center;
     margin-top: 30px;
     padding-bottom: 250px;
-    font-family: "Mountains of Christmas", serif;
 } 
 .Rubrik{
     background-image: url(img/snow_winter_trees.jpg);
@@ -12,6 +11,9 @@ h1{
     padding-top: 30px;
     background-size: 1400px;
     padding-bottom: 50px;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .Bilder{
     display: flex;
@@ -53,17 +55,20 @@ h1{
     border: 3px solid #D6001C;
     width: 90%;
     margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
 }
 .Del2_1{
-    width: 15%;
+    width: 30%;
     border: 3px solid #D6001C;
     margin: 3px;
     img{
-        max-width: 80%;
+        max-height: 20px;
+        max-width: 94%;
     }
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .Bilder{
     border: 3px solid black;
@@ -71,4 +76,26 @@ h1{
 }
 a{
     align-self: center;
+}
+.border{
+    border: 3px solid #D6001C;
+}
+.Del2_text{
+    margin: 3px;
+
+}
+.Träd{
+    margin: 3px;
+    width: 20%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.sidfot{
+    margin: 3px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
